@@ -5,7 +5,7 @@
 Este projeto contém um script Python que permite ao usuário escolher um bairro e visualizar todos os blocos ocorrendo naquele bairro por dia. O usuário também pode exportar os resultados em CSV diretamente pelo terminal.
 
 **Arquivos**
-```bash
+
 script_bairros.py – Script Python principal.
 
 dados.csv – Banco de dados original contendo os blocos, datas e bairros.
@@ -17,7 +17,7 @@ dados.csv – Banco de dados original contendo os blocos, datas e bairros.
 2. Abra o terminal na pasta do projeto.
 
 3. Execute o script:
-```bash
+
 python script_bairros.py
 
 
@@ -36,7 +36,7 @@ Escolha se deseja exportar o resultado para um arquivo CSV.
 Python 3.x
 
 Biblioteca pandas
-```bash
+
 pip install pandas
 
 **Objetivo**
