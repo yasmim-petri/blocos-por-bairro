@@ -30,9 +30,9 @@ Instale a biblioteca necessária com:
 
 Siga as instruções no terminal:  
 
-1. Digite o **nome do bairro desejado**.  
-2. Confira a lista de **blocos ocorrendo em cada dia**.  
-3. Escolha se deseja **exportar os resultados para CSV**.  
+1. Digite o nome do bairro desejado.  
+2. Confira a lista de blocos ocorrendo em cada dia.  
+3. Escolha se deseja exportar os resultados para CSV.  
 
 Se optar por exportar, um arquivo CSV será criado com o nome: blocos_<bairro>.csv
 
