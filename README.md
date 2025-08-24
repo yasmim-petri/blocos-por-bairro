@@ -1,44 +1,44 @@
-**Blocos por Bairro**
+# **Blocos por Bairro**
 
-**Descrição**
+## **Descrição**
 
-Este projeto contém um script Python que permite ao usuário escolher um bairro e visualizar todos os blocos ocorrendo naquele bairro por dia. O usuário também pode exportar os resultados em CSV diretamente pelo terminal.
+Este projeto contém um script Python que permite ao usuário **consultar todos os blocos ocorrendo em um bairro específico**, organizados por dia. É possível **visualizar os resultados no terminal** e **exportá-los diretamente para CSV** para análise ou relatórios.
 
-**Arquivos**
+## **Arquivos**
 
-script_bairros.py – Script Python principal.
+- **`script_bairros.py`** – Script Python principal.  
+- **`dados.csv`** – Banco de dados com informações de blocos, datas e bairros.
 
-dados.csv – Banco de dados original contendo os blocos, datas e bairros.
+## **Requisitos**
 
-**Como usar**
+- **Python 3.8 ou superior**  
+- **Biblioteca `pandas`**
 
-1. Certifique-se de ter o Python instalado (versão 3.8 ou superior).
+Instale a biblioteca necessária com:
 
-2. Abra o terminal na pasta do projeto.
+`pip install pandas`
 
-3. Execute o script:
+## **Como usar**
 
-python script_bairros.py
+1. Abra o terminal na pasta do projeto.  
+2. Execute o script:
 
 
-4. Siga as instruções no terminal:
+`python script_bairros.py`
 
-Digite o nome do bairro desejado.
+## **Como usar**
 
-Confira a lista de blocos ocorrendo em cada dia.
+Siga as instruções no terminal:  
 
-Escolha se deseja exportar o resultado para um arquivo CSV.
+1. Digite o **nome do bairro desejado**.  
+2. Confira a lista de **blocos ocorrendo em cada dia**.  
+3. Escolha se deseja **exportar os resultados para CSV**.  
 
-5. Se exportar, um arquivo CSV será criado com o nome blocos_<bairro>.csv.
+Se optar por exportar, um arquivo CSV será criado com o nome: blocos_<bairro>.csv
 
-**Requisitos**
+## **Objetivo**
 
-Python 3.x
+Facilitar a **consulta de blocos por bairro** e permitir a **exportação de dados** de forma simples e direta para análises ou relatórios.
 
-Biblioteca pandas
 
-pip install pandas
 
-**Objetivo**
-
-Facilitar a consulta de blocos por bairro e permitir exportação de dados para análise ou relatórios de forma simples e direta.
