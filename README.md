@@ -1,15 +1,16 @@
-#Blocos por Bairro
-Descrição
+**Blocos por Bairro**
+
+**Descrição**
 
 Este projeto contém um script Python que permite ao usuário escolher um bairro e visualizar todos os blocos ocorrendo naquele bairro por dia. O usuário também pode exportar os resultados em CSV diretamente pelo terminal.
 
-#Arquivos
+**Arquivos**
 
 script_bairros.py – Script Python principal.
 
 dados.csv – Banco de dados original contendo os blocos, datas e bairros.
 
-#Como usar
+**Como usar**
 
 1. Certifique-se de ter o Python instalado (versão 3.8 ou superior).
 
@@ -30,7 +31,7 @@ Escolha se deseja exportar o resultado para um arquivo CSV.
 
 5. Se exportar, um arquivo CSV será criado com o nome blocos_<bairro>.csv.
 
-#Requisitos
+**Requisitos**
 
 Python 3.x
 
@@ -38,6 +39,6 @@ Biblioteca pandas
 
 pip install pandas
 
-#Objetivo
+**Objetivo**
 
 Facilitar a consulta de blocos por bairro e permitir exportação de dados para análise ou relatórios de forma simples e direta.
